@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.sportradar.unifiedodds.sdk.entities.SportEvent</OriginalElement>
+  <nodes>
+    <node x="718.4291184670024" y="-515.0">com.sportradar.unifiedodds.sdk.entities.Season</node>
+    <node x="-146.0" y="-284.0">com.sportradar.unifiedodds.sdk.entities.SeasonInfo</node>
+    <node x="137.0" y="112.0">com.sportradar.unifiedodds.sdk.entities.SoccerEvent</node>
+    <node x="500.63364600868465" y="-53.0">com.sportradar.unifiedodds.sdk.entities.TournamentInfo</node>
+    <node x="-146.0" y="-482.0">com.sportradar.unifiedodds.sdk.entities.Draw</node>
+    <node x="-146.0" y="-834.0">com.sportradar.unifiedodds.sdk.entities.Match</node>
+    <node x="-146.0" y="112.0">com.sportradar.unifiedodds.sdk.entities.BasicTournament</node>
+    <node x="266.0" y="-834.0">com.sportradar.unifiedodds.sdk.entities.Competition</node>
+    <node x="410.42911846700235" y="-515.0">com.sportradar.unifiedodds.sdk.entities.Stage</node>
+    <node x="148.63364600868465" y="-31.0">com.sportradar.unifiedodds.sdk.entities.LongTermEvent</node>
+    <node x="163.4291184670023" y="-515.0">com.sportradar.unifiedodds.sdk.entities.SportEvent</node>
+    <node x="-146.0" y="-53.0">com.sportradar.unifiedodds.sdk.entities.Lottery</node>
+    <node x="124.0" y="-284.0">com.sportradar.unifiedodds.sdk.entities.Tournament</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.sportradar.unifiedodds.sdk.entities.Lottery" target="com.sportradar.unifiedodds.sdk.entities.LongTermEvent" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-0.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.sportradar.unifiedodds.sdk.entities.Draw" target="com.sportradar.unifiedodds.sdk.entities.SportEvent" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-0.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Balloons" zoom="1.1464088397790055" showDependencies="false" x="408.0433734939763" y="-237.89397590361455" />
+  <SelectedNodes>
+    <node>com.sportradar.unifiedodds.sdk.entities.Stage</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
